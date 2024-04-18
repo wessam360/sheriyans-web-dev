@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav-bar{
+    /* background-color:black; */
+    display: flex;
+
+}
+ #youtube-img{
+    height: 50px;
+    width: 61px;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    /* border: 2px solid black; */
+    margin-left:8px ;
+}
+#menu{
+    margin: 15px 0px 0px 15px;
+}
+#search-bar{
+    display: flex;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px ;
+    margin-left: 140px;
+    border: 1px solid black;
+    border-radius: 1000px;
+    align-items: center;
+    justify-content: space-between;
+}
+#search-bar ::placeholder{
+    text-align:center;
+}
+#searching{
+    width: 150px;
+    height: 20px;
+     border: none;
+    margin-left: 4px;
+}
+#search-place{
+    border-right: 1px solid black;
+    height: 22px;
+}
+#search-icon{
+    width: 30px;
+
+}
